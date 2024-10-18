@@ -1,0 +1,58 @@
+.transaction-list {
+    background-color: #f9f9f9; /* Light background for the component */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px 0; /* Margin for spacing between other elements */
+}
+
+.transaction-list input {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding for comfort */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below the input */
+    font-size: 16px; /* Font size for better readability */
+}
+
+.transaction-list table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Remove space between cells */
+    margin-bottom: 20px; /* Space below the table */
+}
+
+.transaction-list th,
+.transaction-list td {
+    padding: 10px; /* Padding for table cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ccc; /* Border for each row */
+}
+
+.transaction-list th {
+    background-color: #7ec2dd; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.transaction-list tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.transaction-list .pagination {
+    display: flex; /* Use flexbox for pagination controls */
+    justify-content: space-between; /* Space out buttons */
+    align-items: center; /* Align items vertically */
+}
+
+.transaction-list button {
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Cursor change on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.transaction-list button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
